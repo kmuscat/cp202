@@ -71,9 +71,25 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="primary-button">
-                                    <a href="#">Purchase Now</a>
-                                </div>
+                                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="KTZKGH8BWM4TU">
+<table>
+<tr><td><input type="hidden" name="on0" value="Choose a flavour">Choose a flavour</td></tr><tr><td><select name="os0">
+	<option value="223 ml">223 ml $7.99 CAD</option>
+	<option value="444 ml">444 ml $13.99 CAD</option>
+</select> </td></tr>
+<tr><td><input type="hidden" name="on1" value="Choose a flavour:">Choose a flavour:</td></tr><tr><td><select name="os1">
+	<option value="Coconut">Coconut </option>
+	<option value="Shea Butter">Shea Butter </option>
+	<option value="Vanilla">Vanilla </option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="CAD">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
                             </li>
                         </ul>
                     </div>
