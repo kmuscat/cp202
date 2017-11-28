@@ -20,6 +20,11 @@ p {
 	letter-spacing: 0.25px;
 	line-height: 24px;
 }
+
+.paybutton {
+    background: white;
+    color: black;
+}
 .primary-button a {
 	display: inline-block;
 	background-color: #a2cf8d;
