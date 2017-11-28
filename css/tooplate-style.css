@@ -21,7 +21,7 @@ p {
 	line-height: 24px;
 }
 
-.paybutton {
+.paybutton select {
     background: white;
     color: black;
 }
